@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="dientichtamgiac"/>
+        <attribute name="authors" value="ADMIN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-28 03:13:09 PM"/>
+        <attribute name="created" value="QURNSU47REVTS1RPUC1OQzc4Vk41OzIwMjUtMDItMjg7MDM6MTA6MDIgUE07MjY4OA=="/>
+        <attribute name="edited" value="QURNSU47REVTS1RPUC1OQzc4Vk41OzIwMjUtMDItMjg7MDM6MTM6MDkgUE07MTsyODA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, h, s" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nh&#7853;p a:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Nh&#7853;p h:&quot;" newline="True"/>
+            <input variable="h"/>
+            <assign variable="s" expression="0.5 * a * h"/>
+            <output expression="&quot;Di&#7879;n t&#237;ch tam gi&#225;c l&#224;:&quot;" newline="True"/>
+            <output expression="s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
