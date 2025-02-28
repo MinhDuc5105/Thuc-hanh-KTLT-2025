@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="songuyento"/>
+        <attribute name="authors" value="ADMIN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-28 10:43:25 PM"/>
+        <attribute name="created" value="QURNSU47REVTS1RPUC1OQzc4Vk41OzIwMjUtMDItMjg7MTA6MjA6MDYgUE07MjY5MQ=="/>
+        <attribute name="edited" value="QURNSU47REVTS1RPUC1OQzc4Vk41OzIwMjUtMDItMjg7MTA6NDM6MjUgUE07MTsyODA1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nhap so nguyen duong n:&quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n &lt; 4">
+                <then>
+                    <output expression="&quot;n l&#224; s&#7889; nguy&#234;n t&#7889;&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <assign variable="i" expression="2"/>
+            <while expression="i &lt; n">
+                <if expression="n mod i = 0">
+                    <then>
+                        <output expression="&quot;n kh&#244;ng ph&#7843;i l&#224; s&#7889; nguy&#234;n t&#7889;&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <assign variable="i" expression="i + 1"/>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot;n l&#224; s&#7889; nguy&#234;n t&#7889;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
